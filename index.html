@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Guess Number</title>
+  </head>
+  <body class="bg-slate-950">
+    <header class="text-white z-10  h-52 md:h-72 p-3 max-w-4xl mx-auto  border-b-4 relative">
+      <section class="md:p-4 flex items-center justify-between">
+        <button class="btnagain md:text-3xl font-bold border md:py-2 md:px-4 rounded-xl px-2 py-1 hover:bg-white hover:text-slate-950">
+          Play Again
+        </button>
+        <h1 class="md:text-2xl text-sm font-bold">Choose Between 1 and 20</h1>
+      </section>
+      <section>
+        <h1 class="text-center font-bold text-2xl mt-10 md:text-3xl">Guess Number</h1>
+        <p class=" number h-28 w-28 bg-white text-black grid place-content-center text-3xl md:text-5xl absolute left-[128px] md:left-[42%] top-[76%] md:top-[80%]">?</p>
+      </section>
+    </header>
+    <main class="max-w-4xl mx-auto mt-[100px]  px-4 md:grid md:grid-cols-2 md:gap-x-14 ">
+      <section class="md:flex md:flex-col  md:mt-9">
+        <input type="number" class=" guess font-bold text-2xl md:w-60 md:mb-7 h-12 w-32 ms-24 mb-3 rounded-xl p-2 text-center">
+        <button class=" btn font-bold text-2xl md:w-52 ms-24 px-3 py-1 rounded-md  bg-white">Check</button>
+      </section>
+      <section class="mt-6 md:flex md:flex-col md:justify-center md:gap-y-5 ">
+        <p class="text-white text-center text-xl md:text-3xl font-bold message">Start Guessing...</p>
+        <p class="text-xl text-center text-white mt-2  md:text-3xl font-bold ">Score :<span class="ms-16 md:ms-24 score">20</span></p>
+        <p class="text-xl text-center text-white mt-2  md:text-3xl font-bold ">Highscore :<span class=" highscore ms-7 md:ms-16">0</span></p>
+      </section>
+    </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
